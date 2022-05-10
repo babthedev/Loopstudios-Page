@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 300;
+}
+header{
+    background: url(/images/mobile/image-hero.jpg);
+    padding: 2em 1.3em;
+    display: block;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+    .menu{
+        float: right;
+        cursor: pointer;
+    }
+}
+nav{
+    padding: 2em;
+    position: fixed;
+    top: 0;
+    background-color: hsl(0, 0%, 0%);
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(100%);
+    ul{
+        list-style: none;
+        padding: 6em 0;
+        li{
+            margin: 2em 0;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: hsl(0, 0%, 100%);
+                font-weight: 400;
+                font-size: 1.5rem;
+                &:hover{
+                    color: hsl(0, 0%, 55%);
+                }
+            }
+        }
+    }
+    .close{
+        float: right;
+        cursor: pointer;
+        padding: 0 2em;
+    }
+}
+.hero-text{
+    padding: .8em;
+    // background-color: red;
+    width: 60%;
+    margin: 8em auto 13em auto;
+    border: 2px solid hsl(0, 0%, 100%);
+    h1{
+        text-transform: uppercase;
+        // text-align: start;
+        color: hsl(0, 0%, 100%);
+        font-weight: 300;
+    }
+}
+
+.open-nav{
+    transform: translateX(0);
+}
+.vr-image{
+    margin: 8em 1.5em;
+    img{
+        width: 85%;
+        display: block;
+        margin: 4em auto 1.5em auto;
+    }
+    .vr-text{
+        margin: 2em 4em;
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        p{
+            margin: 2em 0;
+            text-align: center;
+            font-family: 'Alata' sans-serif;
+            line-height: 1.5em;
+            color: hsl(0, 0%, 55%);
+        }
+    }
+}
+.creations{
+    margin: 0 auto ;
+    width: 80%;
+    .our-creations{
+        width: 70%;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .deep-earth{
+        text-transform: uppercase;
+        line-height: 1.2em;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        background: url('/images/mobile/image-deep-earth.jpg');
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode:lighten;
+        }
+        padding: 4em 8em 1.5em 1em;
+        color: hsl(0, 0%, 100%);
+    }
+    .night-arcade{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: lighten;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-night-arcade.jpg');
+    }
+    .soccer-team{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: lighten;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-soccer-team.jpg');
+    }
+    .the-grid{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: lighten;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-grid.jpg');
+    }
+    .from-up{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: lighten;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-from-above.jpg');
+    }
+    .pocket-borealis{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: lighten;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-pocket-borealis.jpg');
+    }
+    .the-curiosity{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: color-dodge;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-curiosity.jpg');
+    }
+    .make-it{
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        line-height: 1.2em;
+        color: hsl(0, 0%, 100%);
+        background-size: cover;
+        &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: color-dodge;
+        }
+        padding: 4em 8em 1.5em 1em;
+        background-image: url('/images/mobile/image-fisheye.jpg');
+    }
+    h3{
+        margin: 2em 0;
+    }
+}
+.see-all{
+    width: 30%;
+    margin: 2em auto 7em auto;
+    
+    h2{
+        text-align: center;
+        a {
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: .7em;
+            color: hsl(0, 0%, 0%);
+            padding: .5em 1em;
+            border: 1.7px solid hsl(0, 0%, 0%);
+            &:hover{
+                color: hsl(0, 0%, 100%);
+                background-color: black;
+                border: 2px solid hsl(0, 0%, 0%);
+            }
+        }
+    }
+    
+}
+footer{
+    background-color: black;
+    .footer-container{
+        padding: 2em 8em;
+        .footer-logo{
+            // background-color: yellow;
+            width: 75%;
+            display: block;
+            margin: 1em auto;
+        }
+        ul{
+            // background-color: red;
+            list-style: none;
+            display: block;
+            width: 50%;
+            margin: 2em auto;
+            li{
+                margin: 1em auto;
+                width: 40%;
+                a{
+                    text-decoration: none;
+                    color: hsl(0, 0%, 100%);
+                    font-weight: 600;
+                    font-size: 1rem;
+                    text-align: center;
+                    &:hover {
+                        border-bottom: 2.5px solid hsl(0, 0%, 100%);
+                    }
+                }
+            }
+        }
+        .icons{
+            margin: 0 auto;
+            width: 60%;
+            .icon-items{
+                margin: 0 .2em;
+                &:hover{
+                    border-bottom: 2.5px solid hsl(0, 0%, 100%);
+                }
+            }
+            .facebook{
+                margin-left: .3em;
+            }
+        }
+        .copyright{
+            color: hsl(0, 0%, 41%);
+            // background-color: red;
+            text-align: center;
+            margin: 1em -4em;
+        }
+    }
+}
+@media screen and (min-width:1100px) {
+    header {
+        background: url(/images/desktop/image-hero.jpg);
+        padding: 2em 3em;
+        display: block;    
+        .nav-head{
+            display: flex;
+            padding: 0 auto;
+            width: 70%;
+            margin: 0 auto;
+            .logo{
+                height: 20%;
+            }
+            .menu {
+                display: none;
+            }
+        }
+    }
+    nav {
+        margin: -9.4em 0 0 auto;
+        position: unset;
+        width: 50%;
+        background-color: unset;
+        height: 20%;
+        transform: translateX(0);
+        .nav-logo{
+            display: none;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                margin: 2em .7em;
+                a {
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: hsl(0, 0%, 100%);
+                    font-weight: 400;
+                    font-size: 1.2rem;
+    
+                    &:hover {
+                        border-bottom: 2.5px solid hsl(0, 0%, 100%);
+                        color: hsl(0, 0%, 100%);
+                    }
+                }
+            }
+        }
+    
+        .close {
+            display: none;
+        }
+    }
+    .hero-text {
+        padding: .8em 1em;
+        // background-color: red;
+        width: 30%;
+        margin: -2em 0 7em 9em;
+        border: 2px solid hsl(0, 0%, 100%);
+    
+        h1 {
+            text-transform: uppercase;
+            text-align: start;
+            color: hsl(0, 0%, 100%);
+            font-size: 3rem;
+            font-weight: 300;
+        }
+    }
+    .vr-image {
+        margin: 8em 1.5em;
+        position: relative;
+        img {
+            width: 50%;
+            display: block;
+            margin: 4em 0 1.5em 7em;
+            // position: relative;
+        }
+    
+        .vr-text {
+            margin: 2em 4em;
+            position: absolute;
+            left: 50%;
+            top: 35%;
+            background-color: hsl(0, 0%, 100%);
+            padding: 3em 3em 2.5em 3em;
+            width: 35%;
+        }
+    }
+    .creations{
+        margin: 3em auto;
+        width: 85%;
+        .creations-grid{
+            // background-color: red;
+            display: grid;
+            grid-template-columns: .3fr .3fr .3fr .3fr;
+            width: 80%;
+            margin: 1em auto;
+            align-items: center;
+            justify-content: center;
+            .deep-earth{
+                background: url('/images/desktop/image-deep-earth.jpg');
+                &:hover {
+                    background-color: hsl(0, 0%, 41%);
+                    background-blend-mode: lighten;
+                }
+            }
+            .night-arcade{
+                background: url('/images/desktop/image-night-arcade.jpg');
+                &:hover {
+                    background-color: hsl(0, 0%, 41%);
+                    background-blend-mode: lighten;
+                }
+            }
+            .soccer-team{
+                background: url('/images/desktop/image-soccer-team.jpg');
+                &:hover {
+                    background-color: hsl(0, 0%, 41%);
+                    background-blend-mode: lighten;
+                }
+            }
+            .the-grid{
+                background: url('/images/desktop/image-grid.jpg');
+                &:hover {
+                    background-color: hsl(0, 0%, 41%);
+                    background-blend-mode: lighten;
+                }
+                
+            }
+            .from-up{
+                background: url('/images/desktop/image-from-above.jpg');
+                &:hover {
+                    background-color: hsl(0, 0%, 41%);
+                    background-blend-mode: lighten;
+                }
+                
+            }
+            .pocket-borealis{
+                background: url('/images/desktop/image-pocket-borealis.jpg');
+                &:hover {
+                    background-color: hsl(0, 0%, 41%);
+                    background-blend-mode: lighten;
+                }
+            }
+            .the-curiosity{
+                background: url('/images/desktop/image-curiosity.jpg
+                ');
+                &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: color-dodge;
+        }
+            }
+            .make-it{
+                background: url('/images/desktop/image-fisheye.jpg');
+                &:hover {
+            background-color: hsl(0, 0%, 41%);
+            background-blend-mode: color-dodge;
+        }
+            }
+            .grid-image{
+                padding: 5em 3em 1em 1em;
+                margin: 1em;
+                font-weight: 200;
+                background-position-x: center;
+                background-size: 9em;
+            }
+        }
+    }
+}

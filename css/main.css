@@ -1,0 +1,505 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: white;
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  background: url(/images/mobile/image-hero.jpg);
+  padding: 2em 1.3em;
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+  width: 100%;
+}
+
+header .menu {
+  float: right;
+  cursor: pointer;
+}
+
+nav {
+  padding: 2em;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+nav ul {
+  list-style: none;
+  padding: 6em 0;
+}
+
+nav ul li {
+  margin: 2em 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+  color: #8c8c8c;
+}
+
+nav .close {
+  float: right;
+  cursor: pointer;
+  padding: 0 2em;
+}
+
+.hero-text {
+  padding: .8em;
+  width: 60%;
+  margin: 8em auto 13em auto;
+  border: 2px solid white;
+}
+
+.hero-text h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+}
+
+.open-nav {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.vr-image {
+  margin: 8em 1.5em;
+}
+
+.vr-image img {
+  width: 85%;
+  display: block;
+  margin: 4em auto 1.5em auto;
+}
+
+.vr-image .vr-text {
+  margin: 2em 4em;
+}
+
+.vr-image .vr-text h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.vr-image .vr-text p {
+  margin: 2em 0;
+  text-align: center;
+  font-family: 'Alata' sans-serif;
+  line-height: 1.5em;
+  color: #8c8c8c;
+}
+
+.creations {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.creations .our-creations {
+  width: 70%;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.creations .deep-earth {
+  text-transform: uppercase;
+  line-height: 1.2em;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  background: url("/images/mobile/image-deep-earth.jpg");
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  color: white;
+}
+
+.creations .deep-earth:hover {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+}
+
+.creations .night-arcade {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-night-arcade.jpg");
+}
+
+.creations .night-arcade:hover {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+}
+
+.creations .soccer-team {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-soccer-team.jpg");
+}
+
+.creations .soccer-team:hover {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+}
+
+.creations .the-grid {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-grid.jpg");
+}
+
+.creations .the-grid:hover {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+}
+
+.creations .from-up {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-from-above.jpg");
+}
+
+.creations .from-up:hover {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+}
+
+.creations .pocket-borealis {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-pocket-borealis.jpg");
+}
+
+.creations .pocket-borealis:hover {
+  background-color: dimgray;
+  background-blend-mode: lighten;
+}
+
+.creations .the-curiosity {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-curiosity.jpg");
+}
+
+.creations .the-curiosity:hover {
+  background-color: dimgray;
+  background-blend-mode: color-dodge;
+}
+
+.creations .make-it {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  color: white;
+  background-size: cover;
+  padding: 4em 8em 1.5em 1em;
+  background-image: url("/images/mobile/image-fisheye.jpg");
+}
+
+.creations .make-it:hover {
+  background-color: dimgray;
+  background-blend-mode: color-dodge;
+}
+
+.creations h3 {
+  margin: 2em 0;
+}
+
+.see-all {
+  width: 30%;
+  margin: 2em auto 7em auto;
+}
+
+.see-all h2 {
+  text-align: center;
+}
+
+.see-all h2 a {
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .7em;
+  color: black;
+  padding: .5em 1em;
+  border: 1.7px solid black;
+}
+
+.see-all h2 a:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .footer-container {
+  padding: 2em 8em;
+}
+
+footer .footer-container .footer-logo {
+  width: 75%;
+  display: block;
+  margin: 1em auto;
+}
+
+footer .footer-container ul {
+  list-style: none;
+  display: block;
+  width: 50%;
+  margin: 2em auto;
+}
+
+footer .footer-container ul li {
+  margin: 1em auto;
+  width: 40%;
+}
+
+footer .footer-container ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+footer .footer-container ul li a:hover {
+  border-bottom: 2.5px solid white;
+}
+
+footer .footer-container .icons {
+  margin: 0 auto;
+  width: 60%;
+}
+
+footer .footer-container .icons .icon-items {
+  margin: 0 .2em;
+}
+
+footer .footer-container .icons .icon-items:hover {
+  border-bottom: 2.5px solid white;
+}
+
+footer .footer-container .icons .facebook {
+  margin-left: .3em;
+}
+
+footer .footer-container .copyright {
+  color: dimgray;
+  text-align: center;
+  margin: 1em -4em;
+}
+
+@media screen and (min-width: 1100px) {
+  header {
+    background: url(/images/desktop/image-hero.jpg);
+    padding: 2em 3em;
+    display: block;
+  }
+  header .nav-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 auto;
+    width: 70%;
+    margin: 0 auto;
+  }
+  header .nav-head .logo {
+    height: 20%;
+  }
+  header .nav-head .menu {
+    display: none;
+  }
+  nav {
+    margin: -9.4em 0 0 auto;
+    position: unset;
+    width: 50%;
+    background-color: unset;
+    height: 20%;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  nav .nav-logo {
+    display: none;
+  }
+  nav ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav ul li {
+    margin: 2em .7em;
+  }
+  nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  nav ul li a:hover {
+    border-bottom: 2.5px solid white;
+    color: white;
+  }
+  nav .close {
+    display: none;
+  }
+  .hero-text {
+    padding: .8em 1em;
+    width: 30%;
+    margin: -2em 0 7em 9em;
+    border: 2px solid white;
+  }
+  .hero-text h1 {
+    text-transform: uppercase;
+    text-align: start;
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  .vr-image {
+    margin: 8em 1.5em;
+    position: relative;
+  }
+  .vr-image img {
+    width: 50%;
+    display: block;
+    margin: 4em 0 1.5em 7em;
+  }
+  .vr-image .vr-text {
+    margin: 2em 4em;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    background-color: white;
+    padding: 3em 3em 2.5em 3em;
+    width: 35%;
+  }
+  .creations {
+    margin: 3em auto;
+    width: 85%;
+  }
+  .creations .creations-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: .3fr .3fr .3fr .3fr;
+        grid-template-columns: .3fr .3fr .3fr .3fr;
+    width: 80%;
+    margin: 1em auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .creations .creations-grid .deep-earth {
+    background: url("/images/desktop/image-deep-earth.jpg");
+  }
+  .creations .creations-grid .deep-earth:hover {
+    background-color: dimgray;
+    background-blend-mode: lighten;
+  }
+  .creations .creations-grid .night-arcade {
+    background: url("/images/desktop/image-night-arcade.jpg");
+  }
+  .creations .creations-grid .night-arcade:hover {
+    background-color: dimgray;
+    background-blend-mode: lighten;
+  }
+  .creations .creations-grid .soccer-team {
+    background: url("/images/desktop/image-soccer-team.jpg");
+  }
+  .creations .creations-grid .soccer-team:hover {
+    background-color: dimgray;
+    background-blend-mode: lighten;
+  }
+  .creations .creations-grid .the-grid {
+    background: url("/images/desktop/image-grid.jpg");
+  }
+  .creations .creations-grid .the-grid:hover {
+    background-color: dimgray;
+    background-blend-mode: lighten;
+  }
+  .creations .creations-grid .from-up {
+    background: url("/images/desktop/image-from-above.jpg");
+  }
+  .creations .creations-grid .from-up:hover {
+    background-color: dimgray;
+    background-blend-mode: lighten;
+  }
+  .creations .creations-grid .pocket-borealis {
+    background: url("/images/desktop/image-pocket-borealis.jpg");
+  }
+  .creations .creations-grid .pocket-borealis:hover {
+    background-color: dimgray;
+    background-blend-mode: lighten;
+  }
+  .creations .creations-grid .the-curiosity {
+    background: url("/images/desktop/image-curiosity.jpg\a                 ");
+  }
+  .creations .creations-grid .the-curiosity:hover {
+    background-color: dimgray;
+    background-blend-mode: color-dodge;
+  }
+  .creations .creations-grid .make-it {
+    background: url("/images/desktop/image-fisheye.jpg");
+  }
+  .creations .creations-grid .make-it:hover {
+    background-color: dimgray;
+    background-blend-mode: color-dodge;
+  }
+  .creations .creations-grid .grid-image {
+    padding: 5em 3em 1em 1em;
+    margin: 1em;
+    font-weight: 200;
+    background-position-x: center;
+    background-size: 9em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
